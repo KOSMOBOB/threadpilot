@@ -37,7 +37,7 @@ function getCfg() {
   return Object.assign({
     nick: '@you', human: 0.7, emoji: 0.4, limit: 55, speed: 950,
     skipMedia: true, skipOff: true, publishMode: 'simulate', webhookUrl: '',
-    tags: ['burnout', 'healing', 'breakup recovery', 'toxic relationship', 'self-care', 'journaling', 'mental health'],
+    tags: ['support', 'growth', 'reflection', 'wellbeing', 'self-care', 'journaling', 'personal development'],
     stop: ['crypto', 'bitcoin', 'nft', 'trump', 'politics', 'recipe', 'food', 'fitness', 'gym'],
     examples: ['felt this so hard 🥺', 'same rn honestly', 'you are not alone in this, promise'],
     activeHours: { enabled: false, ranges: [] },

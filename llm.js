@@ -35,8 +35,8 @@ const TEMPLATES_RU = {
     'а ты ведёшь дневник?'
   ],
   howto: [
-    'мне помогла одна тетрадь по восстановлению. если интересно — у меня в профиле',
-    'я когда была в таком состоянии, нашла практикум-тетрадь. ссылка в шапке профиля',
+    'мне помогла одна простая система. если интересно — у меня в профиле',
+    'я когда была в таком состоянии, нашла практический инструмент. ссылка в шапке профиля',
     'о, у меня есть штука которая меня вытащила. можешь глянуть в профиле'
   ],
   support: [
@@ -76,7 +76,7 @@ const TEMPLATES_EN = {
     "how are you holding up today?"
   ],
   howto: [
-    "journaling saved me honestly, i put together what worked in my bio",
+    "a simple practice helped me a lot, i put together what worked in my bio",
     "i found something that really helped me, feel free to check my profile",
     "writing it all down changed everything for me, more in my profile if you're curious",
     "something that pulled me through is linked in my profile, no pressure though"

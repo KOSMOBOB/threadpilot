@@ -147,13 +147,11 @@ Threads отслеживает паттерны активности. Если �
 ### Ниша (теги)
 Список ключевых слов через запятую. Агент ищет посты где есть хотя бы одно из этих слов.
 
-**Пример для healing journal:**
+**Пример для демонстрационной ниши:**
 ```
-burnout, healing, breakup recovery, toxic relationship, narcissistic abuse, 
-self-care, journaling, mental health, therapy, anxiety, depression, 
-starting over, fresh start, emotional recovery, inner child, boundaries, 
-people pleasing, trauma healing, grief, codependency, self love, 
-mindfulness, meditation, wellness, womens mental health, empowerment
+support, reflection, growth, mindset, wellbeing, personal development,
+self-care, journaling, daily practice, resilience, motivation,
+clarity, habits, emotional balance, self-awareness
 ```
 
 ### Стоп-слова
@@ -169,16 +167,15 @@ buy now, limited offer, giveaway, contest, win free, discount code
 ### Примеры стиля
 5-10 фраз которые показывают LLM как писать. Чем больше примеров — тем точнее стиль.
 
-**Пример для empathetic tone:**
+**Пример для эмпатичного тона:**
 ```
 felt this so hard 🥺
-same rn honestly, took me months to even get out of bed
+same rn honestly, this really resonated
 you're not alone in this, promise
 this hit different ngl
-the journaling really helps, started doing it last year
 i've been there, sending love 🤍
 how are you holding up today
-that's so valid, your feelings make complete sense
+that makes a lot of sense, thanks for sharing
 ```
 
 ### Параметры движка
@@ -249,11 +246,7 @@ that's so valid, your feelings make complete sense
 
 **Рекомендуемый системный промпт:**
 ```
-You are commenting on Threads posts from a real person who went through 
-burnout and a difficult breakup. Write in casual supportive English, all 
-lowercase, no final punctuation. Use mild slang (rn, ngl, tbh) and rare 
-typos. 5-12 words max. No hashtags, no 'as an AI', no quotes around the 
-reply. Never include links. Match the emotional tone of the post.
+You are commenting on Threads posts from a real person who is sharing a personal challenge. Write in casual supportive English, all lowercase, no final punctuation. Use mild slang (rn, ngl, tbh) and rare typos. 5-12 words max. No hashtags, no 'as an AI', no quotes around the reply. Never include links. Match the emotional tone of the post.
 ```
 
 **Плюсы:**
@@ -299,7 +292,7 @@ reply. Never include links. Match the emotional tone of the post.
 3. Если конверсия низкая (<20%) — расширьте список тегов
 4. Посмотрите **"Последние комменты"** — есть ли повторяющиеся фразы
 5. Если есть повторы — добавьте больше примеров стиля
-6. Проверьте CTR в профиль (через Etsy analytics)
+6. Проверьте CTR в профиль (через аналитику профиля)
 7. Если CTR <1% — меняйте био профиля или примеры стиля
 
 ### A/B тесты
@@ -337,23 +330,23 @@ reply. Never include links. Match the emotional tone of the post.
 ### 3. CTR в профиль ниже 1%
 **Возможные причины:**
 - Скучное био профиля
-- Непонятная ссылка (Etsy URL длинный)
+- Непонятная ссылка (URL длинный или неочевидный)
 - Комменты не цепляют
 
 **Что делать:**
-- Перепишите био (добавьте конкретику: "survived toxic relationship")
+- Перепишите био (добавьте конкретику: "went through a difficult season")
 - Используйте link shortener (bit.ly) для ссылки
 - Поменяйте примеры стиля на более эмоциональные
 
-### 4. Нет продаж на Etsy за 3 недели
+### 4. Нет конверсий / продаж за несколько недель
 **Возможные причины:**
-- Проблема в самом Etsy-листе (фото/описание/цена)
+- Проблема в самом листинге/лендинге (фото/описание/цена)
 - Нецелевая аудитория
 - Слишком мало трафика
 
 **Что делать:**
-- Проверьте Etsy analytics: views, favorites, conversion rate
-- Оптимизируйте лист (фото, описание, теги)
+- Проверьте аналитику профиля и страницы: views, favorites, conversion rate
+- Оптимизируйте листинг/лендинг (фото, описание, оффер)
 - Увеличьте лимит комментариев до 50/день
 - Добавьте больше тегов в нишу
 

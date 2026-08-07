@@ -13,7 +13,7 @@
 - 📊 **Real-time dashboard** — conversion funnel, engagement metrics, period reports (1h/24h/7d/30d), performance charts
 - 💾 **100% local** — SQLite storage, no cloud dependency, secrets stay on your machine
 
-**Keywords:** Threads automation, comment automation, growth hacking, Etsy traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
+**Keywords:** Threads automation, comment automation, growth hacking, product traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
 
 **Tags:** `threads` `automation` `chrome-extension` `nodejs` `llm` `express` `sqlite` `growth-hacking` `product-marketing` `social-media-automation`
 
@@ -138,38 +138,36 @@ threadpilot/
 
 ### Вариант 1 — Личная история:
 ```
-Name: Sarah · healing journal 🤍
+Name: Alex · personal journey 🤍
 Bio:
-survived a toxic relationship + severe burnout
-now helping women rebuild themselves through journaling
-this journal saved my life 👇
+shared my story and found a better way
+now helping people through practical steps
+example product / link in bio 👇
 ```
 
 ### Вариант 2 — Direct:
 ```
-Name: Emma · recovery after abuse
+Name: Emma · practical support
 Bio:
-healed from narcissistic abuse & burnout
-created the journal that pulled me through
-grab yours 👇
+created a simple system that helped me
+now sharing it with others 👇
 ```
 
 ### Вариант 3 — Мягкий:
 ```
-Name: Jade · gentle healing
+Name: Jade · gentle guidance
 Bio:
-from broken to whole
-journaling practices that actually work
-for women starting over 🌱
+from struggle to clarity
+small steps that actually work
+example product / link in bio 👇
 ```
 
 ### Вариант 4 — Короткий:
 ```
-Name: Healing Journal 🤍
+Name: Example Product 🤍
 Bio:
-toxic relationships · burnout · starting over
-practices that helped me heal
-the journal 👇
+practical support · simple steps · real change
+link in bio 👇
 ```
 
 **Ссылка в профиле:**
@@ -190,7 +188,7 @@ https://example.com/your-product
 Читай **FUNNEL-GUIDE-EN.md** — там всё:
 - Культурные особенности по странам
 - Стратегия комментариев по типам постов
-- Оптимизация Etsy-листа
+- Оптимизация листинга/лендинга
 - Метрики и ожидания
 - Масштабирование
 - Траблшутинг
@@ -217,7 +215,7 @@ A: Проверь что сервер запущен (`npm start`), расшир
 A: Обнови био и фото профиля, сделай комментарии более личными
 
 **Q: Есть клики, но нет продаж**  
-A: Оптимизируй Etsy-лист (фото, описание, цена)
+A: Оптимизируй листинг/лендинг (фото, описание, оффер)
 
 **Q: Threads ограничил аккаунт**  
 A: Снизь до 20 комментариев/день на неделю, увеличь разнообразие
@@ -231,7 +229,7 @@ A: Да, настрой во вкладке "LLM-провайдер" (OpenAI, Op
 2. ✅ Перезапусти сервер: `npm start`
 3. ✅ Обнови профиль Threads на английский
 4. ✅ Создай pinned post о своей истории
-5. ✅ Оптимизируй Etsy-лист
+5. ✅ Оптимизируй листинг/лендинг
 6. ✅ Прогрей аккаунт неделю (15 комментов/день руками)
 7. ✅ Включи агента и следи за дашбордом
 8. ✅ A/B тестируй разные стили комментариев

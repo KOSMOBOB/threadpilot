@@ -1,7 +1,7 @@
 # 🌍 Funnel Guide — English Markets (US, Canada, UK, Australia)
 
 > **Product:** Example product or landing page  
-> **Target:** Women 25-45 healing from toxic relationships / burnout  
+> **Target:** People exploring a personal growth topic  
 > **Markets:** USA, Canada, UK, Australia  
 > **Language:** English
 
@@ -29,32 +29,31 @@ Your profile is the **landing page**. Comments drive traffic TO it.
 
 **Option A — Personal Story:**
 ```
-Name: Sarah · healing journal 🤍
+Name: Alex · personal journey 🤍
 Bio:
-survived a toxic relationship + severe burnout
-now helping women rebuild themselves through journaling
-this journal saved my life 👇
+shared my story and found a better way
+now helping people through simple, practical steps
+example product / link in bio 👇
 Link: https://example.com/your-product
 ```
 
 **Option B — Direct:**
 ```
-Name: Emma · recovery after abuse
+Name: Emma · practical support
 Bio:
-healed from narcissistic abuse & burnout
-created the journal that pulled me through
-grab yours 👇
+built a simple system that helped me
+after going through a hard season
+check it out 👇
 Link: https://example.com/your-product
 ```
 
 **Option C — Soft:**
 ```
-Name: Jade · gentle healing
+Name: Jade · gentle guidance
 Bio:
-from broken to whole
-journaling practices that actually work
-for women starting over 🌱
-the journal that changed everything 👇
+from struggle to clarity
+small steps that actually work
+example product / link in bio 👇
 Link: https://example.com/your-product
 ```
 
@@ -211,86 +210,82 @@ journaling saved me honestly, i put together what worked in my bio
 
 ### Title (140 chars max):
 ```
-Example Product Title for a Recovery Workbook | Gentle Self-Care Resource | Healing Journal
+Example Product Title | Practical Resource | Simple Step-by-Step Solution
 ```
 
-### Tags (13 tags, use all):
+### Tags (12 tags, use all):
 ```
-recovery journal
-healing journal
-toxic relationship
-narcissistic abuse
-burnout recovery
-self care journal
-therapy journal
-mental health
-divorce recovery
-emotional healing
-trauma recovery
-self love journal
-wellness gift
+example product
+practical resource
+personal growth
+self care
+daily practice
+wellbeing
+mindset
+supportive tools
+simple system
+step-by-step guide
+targeted audience
+product landing page
 ```
 
 ### Description Structure:
 
 **Paragraph 1 — Hook:**
 ```
-You survived. Now it's time to heal.
+If you're looking for a simple way to make progress, this product is designed for you.
 
-This journal was created by a woman who walked through the fire of a toxic relationship and severe burnout — and found her way back to herself through these exact practices.
+It was created to help people move from feeling stuck to feeling clearer and more confident.
 ```
 
 **Paragraph 2 — What's Inside:**
 ```
-✨ 120+ guided prompts for processing emotions
-✨ Daily check-ins to rebuild self-trust
-✨ Boundary-setting exercises
-✨ Shadow work prompts
-✨ Self-compassion practices
-✨ Progress tracking pages
+✨ Practical steps you can follow
+✨ Clear guidance for everyday use
+✨ Useful prompts or exercises
+✨ Simple structure for steady progress
 ```
 
 **Paragraph 3 — Who It's For:**
 ```
-This journal is for you if:
-→ You're healing from a toxic relationship or narcissistic abuse
-→ You're recovering from burnout and emotional exhaustion
-→ You want to rebuild your sense of self
-→ You're ready to do the inner work
-→ You believe in the power of writing to heal
+This product is for you if:
+→ You want a practical path forward
+→ You prefer simple, actionable guidance
+→ You want something easy to start with
+→ You value clarity and consistency
 ```
 
 **Paragraph 4 — Social Proof:**
 ```
-"I was skeptical but this journal saved my life. The prompts helped me process things I couldn't even talk about in therapy." — Sarah, USA
+"This made things much easier for me. The structure helped me stay consistent." — Alex, USA
 
-"Finally something that actually helps. I've tried everything and this is the first thing that stuck." — Emma, UK
+"Finally something clear and useful. It felt practical from the start." — Emma, UK
 ```
 
 **Paragraph 5 — Call to Action:**
 ```
-Your healing journey starts with one page.
-Grab your copy today and start rebuilding yourself, one prompt at a time.
+Start with one small step today.
+Grab your copy and begin with a simple, practical approach.
 
-🤍 Instant digital download
-🤍 Print at home or use digitally
-🤍 120+ pages of guided healing
+🤍 Instant access
+🤍 Easy to follow
+🤍 Clear and useful structure
 ```
 
 ### Photos (7 photos):
 
-1. **Main:** Journal on desk with coffee, warm lighting
-2. **Flat lay:** Journal + pen + crystals + plants
-3. **Inside pages:** Show 2-3 actual pages with prompts
-4. **Lifestyle:** Woman journaling in cozy setting
-5. **Digital preview:** Show on iPad/tablet
+1. **Main:** Product on clean background, good lighting
+2. **Flat lay:** Product + pen + simple props
+3. **Details:** Show key pages, features, or sections
+4. **Lifestyle:** Person using it in a calm setting
+5. **Preview:** Show digital or printed format
 6. **Testimonial:** Quote from review overlaid on photo
-7. **Bundle:** If you have multiple journals, show them together
+7. **Bundle:** If you have multiple products, show them together
 
 ### Price Strategy:
 
-**Digital (PDF):** $14.99 - $19.99 USD  
-**Physical:** $29.99 - $39.99 USD (if you add later)
+**Digital:** $9.99 - $19.99 USD  
+**Physical:** $19.99 - $39.99 USD (if you add later)
 
 **Psychological pricing:**
 - Use .99 endings
@@ -373,7 +368,7 @@ If your journal is $17.99:
 ### Phase 4: Product Line (Month 12+)
 
 - Add complementary products:
-  - Burnout recovery journal
+  - Supportive resource
   - Boundary-setting workbook
   - Self-love affirmation cards
   - Digital course on healing

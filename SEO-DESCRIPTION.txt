@@ -15,17 +15,17 @@ ThreadPilot is a self-hosted growth-automation toolkit for Threads (Meta). A Nod
 
 LONG (full SEO block, keyword-rich — for repo About / website):
 
-ThreadPilot — open-source Threads engagement automation for creators and micro-brand sellers.
+ThreadPilot — open-source Threads engagement automation for creators, makers, and indie brands.
 
-· Automate authentic comment engagement on Threads posts that match your niche keywords (burnout recovery, self-care, mental health, healing journals, and more).
-· Hybrid comment generation: built-in template engine with humanization (lowercase style, mild slang, typo injection, emoji control) or any OpenAI-compatible LLM endpoint — OpenAI, OpenRouter, Ollama, LM Studio.
+· Automate authentic comment engagement on Threads posts that match your niche keywords and audience interests.
+· Hybrid comment generation: built-in template engine with humanization (lowercase style, mild slang, emoji control) or any OpenAI-compatible LLM endpoint — OpenAI, OpenRouter, Ollama, LM Studio.
 · Chrome extension (Manifest V3) reads the live Threads feed, extracts post metadata, and posts comments directly from your logged-in session — no Meta API required.
 · Human-like safety: randomized per-post delays, word-by-word typing simulation, configurable daily caps, active-hours scheduling with timezone support (EST, PST, London, Sydney, etc.), and automatic deduplication.
 · Real-time dashboard: live activity feed, conversion funnel (scanned → candidate → published → skipped), engagement metrics (likes, replies, CTR), period reports (1h / 24h / 7d / 30d / all-time), and performance charts.
 · 100% local: SQLite storage, no cloud dependency, secrets stay on your machine.
 
-Ideal for: Etsy sellers, digital-product creators, indie brands, and growth marketers who want to drive targeted, top-of-funnel traffic from Threads without paid ads.
+Ideal for: creators, product makers, indie brands, and growth marketers who want to drive targeted, top-of-funnel traffic from Threads without paid ads.
 
-Keywords: Threads automation, Threads bot, comment automation, growth hacking, Etsy traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
+Keywords: Threads automation, Threads bot, comment automation, growth hacking, product traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
 
-Tags / topics: threads, automation, chrome-extension, nodejs, llm, express, sqlite, growth-hacking, etsy-marketing, social-media-automation
+Tags / topics: threads, automation, chrome-extension, nodejs, llm, express, sqlite, growth-hacking, social-media-automation, product-marketing

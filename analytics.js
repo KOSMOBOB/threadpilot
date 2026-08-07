@@ -134,7 +134,7 @@ function seedIfEmpty() {
   
   const DAY = 86400000;
   const t0 = Date.now();
-  const tags = ['burnout', 'healing', 'toxic relationship', 'journaling', 'self-care', 'mental health'];
+  const tags = ['support', 'growth', 'reflection', 'wellbeing', 'self-care', 'journaling', 'personal development'];
   const nicks = ['sarah_healing', 'emma_recovery', 'jade_wellness', 'anna_therapy', 'lisa_mindful'];
   const lines = [
     'felt this so hard 🥺', 

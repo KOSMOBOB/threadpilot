@@ -1,6 +1,6 @@
 # 🌍 Funnel Guide — English Markets (US, Canada, UK, Australia)
 
-> **Product:** Recovery journal on Etsy  
+> **Product:** Example product or landing page  
 > **Target:** Women 25-45 healing from toxic relationships / burnout  
 > **Markets:** USA, Canada, UK, Australia  
 > **Language:** English
@@ -12,7 +12,7 @@
 1. [Thread Profile Setup](#1-threads-profile-setup)
 2. [Cultural Nuances by Country](#2-cultural-nuances-by-country)
 3. [Comment Strategy](#3-comment-strategy)
-4. [Etsy Listing Optimization](#4-etsy-listing-optimization)
+4. [Product Listing Optimization](#4-product-listing-optimization)
 5. [Metrics & Expectations](#5-metrics--expectations)
 6. [Scaling Strategy](#6-scaling-strategy)
 7. [Troubleshooting](#7-troubleshooting)
@@ -34,7 +34,7 @@ Bio:
 survived a toxic relationship + severe burnout
 now helping women rebuild themselves through journaling
 this journal saved my life 👇
-Link: https://www.etsy.com/listing/4539641269/...
+Link: https://example.com/your-product
 ```
 
 **Option B — Direct:**
@@ -44,7 +44,7 @@ Bio:
 healed from narcissistic abuse & burnout
 created the journal that pulled me through
 grab yours 👇
-Link: https://www.etsy.com/listing/4539641269/...
+Link: https://example.com/your-product
 ```
 
 **Option C — Soft:**
@@ -55,7 +55,7 @@ from broken to whole
 journaling practices that actually work
 for women starting over 🌱
 the journal that changed everything 👇
-Link: https://www.etsy.com/listing/4539641269/...
+Link: https://example.com/your-product
 ```
 
 ### Profile Photo:
@@ -207,11 +207,11 @@ journaling saved me honestly, i put together what worked in my bio
 
 ---
 
-## 4. Etsy Listing Optimization
+## 4. Product Listing Optimization
 
 ### Title (140 chars max):
 ```
-Recovery Journal for Women After Toxic Relationship | Healing from Narcissistic Abuse | Burnout Recovery Workbook | Self-Care Gift
+Example Product Title for a Recovery Workbook | Gentle Self-Care Resource | Healing Journal
 ```
 
 ### Tags (13 tags, use all):
@@ -331,14 +331,14 @@ Grab your copy today and start rebuilding yourself, one prompt at a time.
 
 1. **Comments per day** (target: 35)
 2. **Profile clicks** (check Threads analytics)
-3. **Etsy views** (Etsy dashboard)
+3. **Product views** (analytics dashboard)
 4. **Conversion rate** (sales / profile clicks)
 5. **Revenue per comment** (total revenue / total comments)
 
 ### Break-Even Analysis:
 
 If your journal is $17.99:
-- Etsy fees: ~$2.50
+- Platform fees: vary by provider
 - Net profit: ~$15.49
 - Break-even: 10-15 sales/month = $155-232/month
 
@@ -400,7 +400,7 @@ If your journal is $17.99:
 ### "Getting clicks but no sales"
 
 **Possible causes:**
-1. Etsy listing photos are weak
+1. Product photos are weak
 2. Price is too high
 3. Description doesn't convert
 4. No social proof (reviews)
@@ -441,7 +441,7 @@ If your journal is $17.99:
 - [ ] Restart server: `npm start`
 - [ ] Update Threads profile to English (use template above)
 - [ ] Create pinned post about your journey
-- [ ] Optimize Etsy listing (title, tags, photos, description)
+- [ ] Optimize product listing (title, tags, photos, description)
 - [ ] Warm up account: 15 comments/day for 1 week
 - [ ] Enable agent in Chrome extension
 - [ ] Monitor dashboard: http://localhost:3000
@@ -456,14 +456,14 @@ If your journal is $17.99:
 **Common issues:**
 - Agent not posting → check server is running
 - No profile clicks → improve bio and photo
-- No sales → optimize Etsy listing
+- No sales → optimize the product listing
 - Account limited → reduce frequency, take break
 
 **Advanced:**
 - Add LLM for smarter comments (OpenAI/Claude)
 - Create second account for scaling
 - Expand to other platforms
-- Build email list from Etsy buyers
+- Build email list from interested buyers
 
 ---
 

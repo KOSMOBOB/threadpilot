@@ -1,5 +1,5 @@
-// funnel-config.js — настройки воронки для продажи тетради по восстановлению на Etsy
-// https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
+// funnel-config.js — настройки воронки для примера продукта/лендинга
+// https://example.com/your-product
 
 module.exports = {
   // === НИША / ТЕГИ ===
@@ -127,8 +127,8 @@ module.exports = {
   
   // === ВОРОНКА ===
   funnelType: 'profile-link',  // тип: ссылка в профиле
-  shopUrl: 'https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle',
-  product: 'Тетрадь по восстановлению',
+  shopUrl: 'https://example.com/your-product',
+  product: 'Пример продукта',
   
   // === ЦА ===
   audience: {

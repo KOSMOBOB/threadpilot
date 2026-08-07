@@ -149,7 +149,7 @@ the journal that changed everything 👇`,
 practices that helped me heal
 the journal 👇`,
 
-    profileLink: 'https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle'
+    profileLink: 'https://example.com/your-product'
   },
 
   // ==================== КУЛЬТУРНЫЕ НЮАНСЫ ====================

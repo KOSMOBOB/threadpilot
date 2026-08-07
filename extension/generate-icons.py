@@ -4,7 +4,7 @@
 Создаёт PNG-иконки 16x16, 32x32, 48x48, 128x128 в папке icons/.
 
 Запуск:
-    cd C:\\Users\\Y700\\treadsapp\\extension
+    cd /path/to/threadpilot/extension
     python generate-icons.py
 
 Требования: pip install Pillow

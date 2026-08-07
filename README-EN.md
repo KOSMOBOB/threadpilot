@@ -1,10 +1,10 @@
 # 🌍 ThreadPilot — English Markets Edition
 
-> **AI-powered engagement agent for Threads** — a self-hosted Chrome extension + Node.js backend that auto-comments on niche posts with LLM support, human-like pacing, scheduling, and a local analytics dashboard. Drive targeted Etsy traffic without paid ads.
+> **AI-powered engagement agent for Threads** — a self-hosted Chrome extension + Node.js backend that auto-comments on niche posts with LLM support, human-like pacing, scheduling, and a local analytics dashboard. Drive targeted traffic to a product or landing page without paid ads.
 
 ## 🔍 SEO / Overview
 
-**ThreadPilot** is an open-source growth-automation toolkit for Threads (Meta). It helps creators, Etsy sellers, and indie brands automate authentic comment engagement to drive top-of-funnel traffic from their target audience.
+**ThreadPilot** is an open-source growth-automation toolkit for Threads (Meta). It helps creators, makers, and indie brands automate authentic comment engagement to drive top-of-funnel traffic from their target audience.
 
 **Key features:**
 - 🤖 **Hybrid comment generation** — built-in humanized templates or any OpenAI-compatible LLM (OpenAI, OpenRouter, Ollama, LM Studio)
@@ -15,7 +15,7 @@
 
 **Keywords:** Threads automation, comment automation, growth hacking, Etsy traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
 
-**Tags:** `threads` `automation` `chrome-extension` `nodejs` `llm` `express` `sqlite` `growth-hacking` `etsy-marketing` `social-media-automation`
+**Tags:** `threads` `automation` `chrome-extension` `nodejs` `llm` `express` `sqlite` `growth-hacking` `product-marketing` `social-media-automation`
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 1. Установи зависимости (один раз)
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 npm install
 ```
 
@@ -51,7 +51,7 @@ npm start
 1. Открой `chrome://extensions/`
 2. Включи "Режим разработчика"
 3. Нажми "Загрузить распакованное расширение"
-4. Выбери папку: `C:\Users\Y700\treadsapp\extension`
+4. Выбери папку: `/path/to/threadpilot/extension`
 
 ### 6. Открой Threads и включи агента
 1. Зайди на https://www.threads.net
@@ -61,7 +61,7 @@ npm start
 ## 📁 Структура проекта
 
 ```
-treadsapp/
+threadpilot/
 ├── server.js                  — Express-сервер
 ├── db.js                      — SQLite база данных
 ├── llm.js                     — LLM-провайдер (OpenAI/OpenRouter/Ollama)
@@ -174,7 +174,7 @@ the journal 👇
 
 **Ссылка в профиле:**
 ```
-https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
+https://example.com/your-product
 ```
 
 ## 🛡️ Защита от бана

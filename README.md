@@ -24,7 +24,7 @@
 
 ### 1. Запустите сервер
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 npm start
 ```
 
@@ -32,7 +32,7 @@ npm start
 1. Откройте `chrome://extensions/`
 2. Включите **"Режим разработчика"**
 3. Нажмите **"Загрузить распакованное расширение"**
-4. Выберите папку `C:\Users\Y700\treadsapp\extension`
+4. Выберите папку `/path/to/threadpilot/extension`
 5. Закрепите расширение на панели (📌)
 
 ### 3. Откройте Threads
@@ -388,7 +388,7 @@ reply. Never include links. Match the emotional tone of the post.
 
 **Решение:**
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 node kill-port.js
 npm start
 ```

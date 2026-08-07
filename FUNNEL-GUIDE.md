@@ -1,7 +1,7 @@
-# 🎯 Инструкция по воронке: Threads → Etsy
+# 🎯 Инструкция по воронке: Threads → продукт
 
-Продажа: **Тетрадь по восстановлению после...**
-https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
+Продажа: **пример продукта / лендинга**
+https://example.com/your-product
 
 ---
 
@@ -16,9 +16,9 @@ https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
          ↓
 [Кликает на твой ник → заходит в профиль]
          ↓
-[Видит био с призывом + ссылка на Etsy]
+[Видит био с призывом + ссылка на продукт]
          ↓
-[Переходит на Etsy → покупка]
+[Переходит на лендинг → покупка]
 ```
 
 **Ключевой принцип:** НЕ продавать в комментариях. Создавать эмпатию и любопытство, чтобы человек сам пришёл в профиль.
@@ -45,7 +45,7 @@ https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
 
 ### Ссылка в профиле:
 ```
-https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
+https://example.com/your-product
 ```
 
 ### Аватар:
@@ -128,9 +128,9 @@ https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
    - Норма: 2-5% от комментов → клик в профиль
    - Если меньше: делай больше "мягких намёков" и вопросов
 
-4. **Продажи на Etsy**
+4. **Продажи на продукт**
    - Норма для такой воронки: 2-5% от кликов в профиль → покупка
-   - Если < 1%: проблема в самом Etsy-листе (фото, цена, описание)
+   - Если < 1%: проблема в самом листинге/лендинге (фото, цена, описание)
 
 ### A/B тесты:
 - Попробуй неделю с `limit: 30`, потом неделю с `limit: 15` — иногда меньше = качественнее
@@ -186,7 +186,7 @@ https://www.etsy.com/listing/4539641269/raboaa-tetrad-po-vosstanovleniu-posle
 Файл `funnel-config.js` уже содержит готовые настройки. Запусти один раз:
 
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 node apply-funnel-config.js
 ```
 

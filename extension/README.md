@@ -18,7 +18,7 @@ chrome://extensions/
 ### 3. Загрузите расширение
 Нажмите **"Загрузить распакованное расширение"** и выберите папку:
 ```
-C:\Users\Y700\treadsapp\extension
+/path/to/threadpilot/extension
 ```
 
 ### 4. Закрепите на панели
@@ -30,7 +30,7 @@ C:\Users\Y700\treadsapp\extension
 
 ### 1. Запустите сервер
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 npm start
 ```
 
@@ -147,7 +147,7 @@ npm start
 
 **Решение:**
 ```bash
-cd C:\Users\Y700\treadsapp
+cd /path/to/threadpilot
 npm start
 ```
 
@@ -178,7 +178,7 @@ npm start
 
 ## 📞 Поддержка
 
-Полная документация: `C:\Users\Y700\treadsapp\README.md`
+Полная документация: `README.md`
 
 Если что-то не работает:
 1. Проверьте логи в DevTools (F12 → Console)

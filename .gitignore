@@ -1,0 +1,21 @@
+# Dependencies (install via npm install)
+node_modules/
+
+# Runtime data / databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Environment variables (real secrets)
+.env
+
+# Debug / temp logs
+.playwright-mcp/
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

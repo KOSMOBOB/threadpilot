@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>threadpilot</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:380px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0a0e13;color:#eaf0f7;padding:16px}
+.hd{display:flex;align-items:center;gap:10px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:14px}
+.logo{width:32px;height:32px;border-radius:8px;background:radial-gradient(120% 120% at 30% 20%,#1c2734,#0c1117);
+  display:grid;place-items:center;border:1px solid rgba(255,255,255,.13)}
+.logo svg{width:16px;height:16px}
+.brand{font-weight:700;font-size:15px;letter-spacing:-.01em}
+.brand b{color:#33d6b0}
+.ver{font-family:monospace;font-size:10px;color:#5b6878;margin-left:auto}
+.st{display:flex;align-items:center;gap:8px;padding:10px 12px;background:#10161e;border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;margin-bottom:12px;font-size:12.5px}
+.st .dot{width:8px;height:8px;border-radius:50%;background:#5b6878;flex-shrink:0}
+.st.ok .dot{background:#33d6b0;box-shadow:0 0 0 0 rgba(51,214,176,.6);animation:pulse 1.5s infinite}
+.st.warn .dot{background:#f5b14c}
+.st.err .dot{background:#ff6f6f}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(51,214,176,.5)}70%{box-shadow:0 0 0 6px rgba(51,214,176,0)}100%{box-shadow:0 0 0 0 rgba(51,214,176,0)}}
+.st .lb{font-weight:600;color:#cdd6e0}
+.st .vl{margin-left:auto;font-family:monospace;font-size:10.5px;color:#8b98a9}
+.domain{font-family:monospace;font-size:10.5px;color:#6fb6ff;background:#10283f;padding:2px 7px;border-radius:5px;margin-left:4px}
+.sw{display:flex;align-items:center;justify-content:space-between;padding:12px;background:#10161e;border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;margin-bottom:14px;cursor:pointer;transition:background .2s}
+.sw:hover{background:#151d27}
+.sw .lb{font-size:13px;font-weight:600}
+.sw .sub{font-size:10.5px;color:#5b6878;margin-top:2px}
+.toggle{position:relative;width:42px;height:24px;background:#243140;border-radius:12px;transition:background .2s}
+.toggle.on{background:#33d6b0}
+.toggle .knob{position:absolute;top:2px;left:2px;width:20px;height:20px;background:#fff;border-radius:50%;transition:left .2s}
+.toggle.on .knob{left:20px}
+.prog{padding:12px;background:#10161e;border:1px solid rgba(255,255,255,.07);border-radius:10px;margin-bottom:12px}
+.prog .tt{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:11px}
+.prog .tt .lb{color:#8b98a9;font-family:monospace;letter-spacing:.05em;text-transform:uppercase}
+.prog .tt .vl{color:#eaf0f7;font-weight:700;font-family:monospace}
+.bar{height:6px;border-radius:99px;background:#243140;overflow:hidden;position:relative}
+.bar > i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#33d6b0,#7af0d4);transition:width .5s cubic-bezier(.4,0,.2,1)}
+.stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.stat{padding:10px 8px;background:#10161e;border:1px solid rgba(255,255,255,.07);border-radius:9px;text-align:center}
+.stat .v{font-family:"Space Grotesk",-apple-system,sans-serif;font-size:22px;font-weight:700;line-height:1;color:#33d6b0}
+.stat .l{font-family:monospace;font-size:9px;color:#5b6878;letter-spacing:.06em;text-transform:uppercase;margin-top:5px}
+.stat.mid .v{color:#8b98a9}
+.stat.skip .v{color:#ff6f6f}
+.actions{display:flex;gap:8px;margin-bottom:12px}
+.btn{flex:1;padding:9px 12px;background:#1b2531;border:1px solid rgba(255,255,255,.08);color:#cdd6e0;border-radius:9px;
+  font-size:11.5px;font-weight:600;cursor:pointer;transition:background .2s;text-align:center}
+.btn:hover{background:#243140}
+.btn.primary{background:linear-gradient(180deg,#3ee0bb,#23b896);color:#04231b;border:none}
+.btn.primary:hover{filter:brightness(1.06)}
+.log{max-height:140px;overflow-y:auto;background:#0d1219;border:1px solid rgba(255,255,255,.07);border-radius:10px;
+  padding:8px 10px;font-family:monospace;font-size:11px;line-height:1.6}
+.log::-webkit-scrollbar{width:6px}
+.log::-webkit-scrollbar-thumb{background:#243140;border-radius:9px}
+.log .e{display:flex;gap:6px;padding:2px 0}
+.log .t{color:#5b6878;flex-shrink:0}
+.log .m{color:#8b98a9;word-break:break-word}
+.log .e.hit .m{color:#33d6b0}
+.log .e.skip .m{color:#ff6f6f}
+.log .e.sys .m{color:#f5b14c}
+.ft{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:10.5px;color:#5b6878}
+.ft a{color:#6fb6ff;text-decoration:none}
+.ft a:hover{text-decoration:underline}
+.hint{padding:10px;background:#3a2c10;border:1px solid rgba(245,177,76,.3);border-radius:9px;font-size:11.5px;
+  color:#f5b14c;margin-bottom:12px;line-height:1.5}
+.hint b{color:#f5b14c}
+</style>
+</head>
+<body>
+
+<div class="hd">
+  <div class="logo"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5c5-1 11-1 16 0M4 12c5-1 11-1 16 0M4 19c3-.6 7-.6 10 0" stroke="#33d6b0" stroke-width="2" stroke-linecap="round"/><circle cx="18.5" cy="18.5" r="2.4" fill="#33d6b0"/></svg></div>
+  <div>
+    <div class="brand">thread<b>pilot</b></div>
+    <div style="font-size:10px;color:#5b6878;margin-top:1px">агент для Threads</div>
+  </div>
+  <div class="ver">v1.0</div>
+</div>
+
+<div class="st" id="stBackend"><span class="dot"></span><span class="lb">Backend</span><span class="vl" id="stBackendText">проверка...</span></div>
+<div class="st" id="stPage"><span class="dot"></span><span class="lb">Страница</span><span class="vl" id="stPageText">—</span></div>
+<div class="st" id="stFirecrawl"><span class="dot"></span><span class="lb">Firecrawl</span><span class="vl" id="stFirecrawlText">—</span></div>
+
+<div class="hint" id="hintBox" style="display:none">
+  <b>Внимание:</b> <span id="hintText"></span>
+</div>
+
+<div class="sw" id="swBox">
+  <div>
+    <div class="lb">Агент</div>
+    <div class="sub" id="swSub">выключен</div>
+  </div>
+  <div class="toggle" id="swToggle"><div class="knob"></div></div>
+</div>
+
+<div class="sw" id="searchBox" style="margin-top:-8px;margin-bottom:12px">
+  <div>
+    <div class="lb">Поисковый режим</div>
+    <div class="sub">теги из бэкенда + доп. вручную</div>
+  </div>
+  <div class="toggle" id="searchToggle"><div class="knob"></div></div>
+</div>
+
+<div class="field" id="searchTagsField" style="display:none;padding:0 12px;margin-bottom:12px">
+  <div style="font-size:11px;color:#8b98a9;margin-bottom:6px;font-family:monospace">ДОПОЛНИТЕЛЬНЫЕ ТЕГИ (основные из бэкенда)</div>
+  <textarea id="searchTagsInput" style="width:100%;background:#10161e;border:1px solid rgba(255,255,255,.07);border-radius:9px;color:#eaf0f7;padding:8px;font-size:11.5px;font-family:monospace;resize:vertical;min-height:60px" placeholder="burnout, healing, journaling..."></textarea>
+</div>
+
+<div class="prog">
+  <div class="tt"><span class="lb">Прогресс сегодня</span><span class="vl" id="progText">0 / 35</span></div>
+  <div class="bar"><i id="progBar" style="width:0%"></i></div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="v" id="sPosted">0</div><div class="l">опубл.</div></div>
+  <div class="stat skip"><div class="v" id="sSkipped">0</div><div class="l">пропущ.</div></div>
+  <div class="stat mid"><div class="v" id="sScanned">0</div><div class="l">сканир.</div></div>
+</div>
+
+<div class="actions">
+  <button class="btn" id="btnOpenDash">Открыть дашборд</button>
+  <button class="btn" id="btnOpenThreads">Открыть Threads</button>
+  <button class="btn" id="btnReset">Сброс</button>
+</div>
+<div class="actions" id="fcActions" style="display:none">
+  <button class="btn primary" id="btnRefreshSelectors" style="flex:2">⟳ Обновить селекторы</button>
+</div>
+
+<div class="log" id="log"><div class="e sys"><span class="t">—</span><span class="m">Лог загружается...</span></div></div>
+
+<div class="ft">
+  <span id="clock">--:--:--</span>
+  <a href="http://localhost:3000" target="_blank">localhost:3000 →</a>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

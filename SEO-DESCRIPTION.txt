@@ -29,3 +29,5 @@ Ideal for: creators, product makers, indie brands, and growth marketers who want
 Keywords: Threads automation, Threads bot, comment automation, growth hacking, product traffic, social media funnel, Chrome extension, LLM comments, Meta Threads marketing, self-hosted growth tool
 
 Tags / topics: threads, automation, chrome-extension, nodejs, llm, express, sqlite, growth-hacking, social-media-automation, product-marketing
+
+Disclaimer: This project is provided for educational and informational purposes only. Use responsibly and in compliance with applicable laws, platform rules, and service terms.

@@ -26,6 +26,10 @@
 2. **Chrome-расширение** — парсит реальную ленту Threads, отправляет на сервер, инжектит ответы
 3. **Дашборд** — веб-интерфейс с живой лентой, настройками и аналитикой
 
+## ⚠️ Disclaimer
+
+This project is provided solely for informational, educational, and research purposes. It is not intended to bypass platform restrictions, violate service terms, harm third parties, or engage in any activity that may conflict with applicable law, user agreements, or platform policies. Use it responsibly, at your own risk, and only in compliance with the laws and rules applicable to your jurisdiction.
+
 ## 🚀 Быстрый старт
 
 ### 1. Установи зависимости (один раз)
